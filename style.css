@@ -1,0 +1,67 @@
+/*      <!--Font-family-Montserrat-->  */
+@import url('https://fonts.googleapis.com/css2?family=Hurricane&family=Playfair+Display:wght@500&display=swap');
+
+.body{
+    font-family: 'Playfair Display', serif;
+    overflow-x: hidden;
+}
+
+
+/*Menu*/     
+#menu li a {
+    font-size: 18px;
+    font-weight: bold;
+    color: #3f3f3f;
+}
+
+#menu form button{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Carrousel de Imagenes */
+.carousel-inner{
+    max-height: 39rem;
+}
+
+/*===========================================MEDIA QUERIES PANTALLA L======================================*/
+
+/*===========================================MEDIA QUERIES PANTALLA SM======================================*/
+@media( max-width:768px){
+    #intro, #equipo{
+        width: 90% !important;
+    }
+    .servicio-fila{
+        width: 100% !important;
+        text-align: center;
+    }
+
+    #equipo p {
+        display: none;
+    }
+}
+/*===========================================MEDIA QUERIES PANTALLA X-SM======================================*/
+@media(max-width: 576px){
+    .icono-wrap{
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+}
+
+
+/*===========================================MEDIA QUERIES PANTALLA X-SM======================================*/
+footer{
+    background: #1b2a4e;
+    min-height: 100px;
+
+}
+footer p {
+ color: #f3f3f3;
+ text-align: center;
+}
+#iconos i {
+    font-size: 26px;
+    padding: 0 8px;
+    color: #f3f3f3;
+
+}
